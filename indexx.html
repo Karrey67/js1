@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+    <html>
+    <body>
+    <script>
+    var x = prompt('Введите значение x');
+
+     if((navigator.userAgent.indexOf("Opera") || navigator.userAgent.indexOf('OPR')) != -1 ) 
+    {
+        alert(10*x);
+    }
+    else if(navigator.userAgent.indexOf("Chrome") != -1 )
+    {
+        alert(Math.pow(10,x));
+    }
+    else if(navigator.userAgent.indexOf("Firefox") != -1 ) 
+    {
+         alert(Math.sin(x));
+    }
+
+    </script>
+
+    </body>
+    </html>
